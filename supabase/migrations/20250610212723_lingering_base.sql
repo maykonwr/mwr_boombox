@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `mwr_playlists_users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `playlist` int(11) NOT NULL,
   `license` varchar(255) NOT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`),d
   KEY `idx_playlist` (`playlist`),
   KEY `idx_license` (`license`),
   KEY `idx_playlist_license` (`playlist`, `license`),
